@@ -16,7 +16,7 @@
 .toplevel {
  
 
-background-color: hsl(177, 89%, 29%); 
+background-color: hsl(182, 98%, 34%); 
 height: 66vh;
 width: 90vw;
 display: flex;
@@ -24,7 +24,7 @@ justify-content: center;
 align-items: center;
 background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
 background-repeat: no-repeat no-repeat;
-background-position: -18% 160%, 130% -100% ;
+background-position: -20% 160%, 130% -100% ;
       }
 
    
