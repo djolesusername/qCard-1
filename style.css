@@ -1,8 +1,116 @@
-.card-container {
-    display: grid;
-align-items: center;
+
+.meta-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: saddlebrown;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: white;
+
+
 }
 
+
+.toplevel {
+ 
+
+background-color: rgb(4, 90, 83); 
+height: 66vh;
+width: 85vw;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+background-repeat: no-repeat no-repeat;
+background-position: -18% 160%, 100% -100% ;
+      }
+
+   
+
+
+
+.card-container {
+    display: grid;
+    grid-template-rows:  124px 160px 100px ;
+    padding: 2em;
+   
+    color: hsl(229, 23%, 23%);
+
+   
+}
+
+
+
+
+/* Profile picture positioned in px, check .profilePicture if width changed */
+.card-container > div {
+    text-align: center;
+    width: 346px;
+
+}
+
+.background-image {
+    background-image: url( "bg-pattern-card.svg");
+    position: relative;
+    border-radius: 12px 12px 0px 0px ;
+
+}
+
+/*  Profile picture is 96*96 */
 .profilePicture {
     border-radius: 50%;
+    position: absolute;
+    bottom: -48px;
+    left: 125px;
+    border: 4px solid white;
+
+ 
 }
+
+.user-info, .social-metrics {
+    background-color: white;
+}
+
+.user-info{
+    padding-top: 60px;
+    font-size: 18px;
+
+   
+}
+
+.fullname {
+    font-weight: 700;
+}
+.light-font{
+    font-weight: 400; 
+}
+
+.more-info {
+    font-size: 0.8em;
+    padding-top: 20px;
+}
+
+.social-metrics {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-top: 1px solid rgb(224, 224, 224) ;
+    font-size: 18px;
+    border-radius: 0px 0px 12px 12px;
+    font-weight: 700;
+
+}
+
+.social-title {
+letter-spacing: 0.2em;
+font-size: 12px;
+font-weight: 400;
+
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+
+
